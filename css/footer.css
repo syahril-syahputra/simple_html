@@ -1,0 +1,31 @@
+.footer{
+    background-color: #333333;
+    padding: 10px 10px;
+}
+.footer__menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__item{
+    list-style: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: #AAAAAA;
+    margin-bottom: 10px;
+}
+.footer__item:hover{
+    color: #FFFFFF;
+}
+
+@media (min-width: 768px){
+    .footer__menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__item{
+        margin-bottom: 0px;
+    }
+}
